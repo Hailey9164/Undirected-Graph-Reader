@@ -1,16 +1,16 @@
 **************************************************************
-* Hailey Campbell                                          
-* Login ID: 018392504                                      
-* CS 3310, Spring 2026                                   
-* Programming Assignment 1                                  
-* Description: This program reads multiple undirected graphs
-* from an input file, prints the connected components of each
-* graph, and detects one cycle if it exists.
+Hailey Campbell                                          
+Login ID: 018392504                                      
+CS 3310, Spring 2026                                   
+Programming Assignment 1                                  
+Description: This program reads multiple undirected graphs
+from an input file, prints the connected components of each
+graph, and detects one cycle if it exists.
 **************************************************************
 
-
+**************************************************************
 1. FILES INCLUDED
-
+**************************************************************
 Prog1.java
     - Main driver class. Prompts the user for an input filename,
       reads each graph from the file, and prints the connected
