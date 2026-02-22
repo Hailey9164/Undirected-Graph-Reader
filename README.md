@@ -10,7 +10,7 @@ graph, and detects one cycle if it exists.
 
 **************************************************************
 1. FILES INCLUDED
-**************************************************************
+
 Prog1.java
     - Main driver class. Prompts the user for an input filename,
       reads each graph from the file, and prints the connected
@@ -35,7 +35,7 @@ CycleDetector.java
 README
     - This file.
 
-
+**************************************************************
 2. COMPILATION INSTRUCTIONS
 
 All .java files must be in the same directory.
@@ -48,7 +48,7 @@ containing the files and type:
 This will compile all classes and produce the corresponding
 .class files.
 
-
+**************************************************************
 3. EXECUTION INSTRUCTIONS
 
 After compiling, run the program with:
@@ -71,7 +71,7 @@ graph and print:
     - A cycle if one exists, or a message that the graph is
       acyclic
 
-
+**************************************************************
 4. INPUT FILE FORMAT
 
 Each line of the input file represents one graph.
@@ -91,7 +91,7 @@ Example:
     12 (1,3) (2,5) (3,4) (3,5) (5,6) (6,7) (8,1) (1,8)
        (10,12) (9,12) (11,12) (10,9) (11,9)
 
-
+**************************************************************
 5. OUTPUT FORMAT
 
 The program prints results in the following format:
@@ -104,7 +104,7 @@ The program prints results in the following format:
     One connected component: {1 2 3 4}
     The graph is acyclic.
 
-
+**************************************************************
 6. DESIGN NOTES
 
 - Each class is placed in its own file, as required.
@@ -118,10 +118,11 @@ The program prints results in the following format:
 - Cycle detection uses an explicit stack and parent pointers to
   reconstruct one cycle.
 
-
+**************************************************************
 7. HOW TO MODIFY OR EXTEND
 
 To add new graph algorithms, create a new class file and place
 the methods there. Keep all data-related operations inside the
 Graph class and follow the same style guidelines used in this
 assignment.
+**************************************************************
